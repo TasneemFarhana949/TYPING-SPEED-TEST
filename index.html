@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Typing Test</title>
+</head>
+
+<body>
+
+<h2>Typing Speed Test</h2>
+
+<p id="paragraph">
+Practice typing every day to improve speed and accuracy.
+</p>
+
+<textarea id="input" rows="5" cols="70" placeholder="Start typing here..." disabled></textarea>
+
+<br><br>
+
+<button id="startBtn">Start Test</button>
+<button id="stopBtn">Stop</button>
+<button id="restartBtn">Restart</button>
+
+<br><br>
+
+<div id="timerSection" style="display:none;">
+Time: <span id="time">0</span> seconds
+</div>
+
+<br>
+
+<div id="resultSection" style="display:none;">
+<p>Progress: <span id="progress"></span></p>
+<p>Correct Characters: <span id="correct"></span></p>
+<p>Wrong Characters: <span id="wrong"></span></p>
+<p>Accuracy: <span id="accuracy"></span></p>
+<p>Time Taken: <span id="timeTaken"></span> seconds</p>
+</div>
+
+<script src="/project 2/java.js"></script>
+
+</body>
+</html>
